@@ -1,12 +1,17 @@
 import json
+import os
+from dotenv import load_dotenv
 import numpy as np
 from qiskit import QuantumCircuit
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
 
+load_dotenv()
+api_key = os.getenv("IBM_TOKEN") 
+
 def generate_quantum_seed():
     # 1. Authenticate (Ensure your API token is saved locally or pass it here)
-    # QiskitRuntimeService.save_account(channel="ibm_quantum", token="YOUR_TOKEN")
+    QiskitRuntimeService.save_account(channel="ibm_quantum_platform", token=api_key, overwrite=True)
     service = QiskitRuntimeService()
 
     # 2. Select a Backend
