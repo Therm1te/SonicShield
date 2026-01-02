@@ -108,7 +108,6 @@ The project includes a `verify` module to ensure the protection is robust yet in
 * **Quantum Computing:** Qiskit SDK, IBM Quantum Runtime (SamplerV2).
 * **DSP:** Librosa, SciPy (Butterworth Filters, STFT/ISTFT).
 * **Visualization:** Matplotlib, NumPy.
-* **DevOps:** Docker, GitHub Actions (CI/CD).
 
 ## 📄 License
 
@@ -116,4 +115,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-*Built by CyberAsim. A Portfolio Project bridging Quantum Mechanics and Cybersecurity.*
+*Built by [CyberAsim](https://cyberasim.com). A Portfolio Project bridging Quantum Mechanics and Cybersecurity.*
