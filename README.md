@@ -39,7 +39,7 @@ The defense consists of three distinct layers:
 ### 1. Spectrogram Analysis
 
 *Top: Original | Middle: Protected | Bottom: The Injected Quantum Noise*
-![Spectrogram Comparison](images\spectrogram_proof.png)
+![Spectrogram Comparison](images/spectrogram_proof.png)
 
 ### 2. Quantum Phase Scattering
 
